@@ -3,7 +3,6 @@ import papermill as pm
 def display_menu():
     print("\n--- Notebook Executor ---")
     print("1. Execute code.ipynb")
-    print("2. Execute another_notebook.ipynb")
     print("3. Exit")
     choice = input("Enter your choice (1-3): ")
     return choice
